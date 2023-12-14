@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAsm_NC</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="facebook_app_id">651399073410015</string>
+    <string name="facebook_client_token">77b8f6096ff09ae2628a49606879c690</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+</resources>

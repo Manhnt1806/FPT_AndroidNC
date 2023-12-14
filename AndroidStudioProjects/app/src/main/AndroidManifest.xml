@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="manhntph29583.baithi.lad1">
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lad1"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Demo5.MainWeb"
+            android:exported="false" />
+        <activity
+            android:name=".demo1.Demo1"
+            android:exported="false" />
+        <activity
+            android:name=".demo4.Demo4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Demo2.L21"
+            android:exported="false"
+            android:label="@string/title_activity_demo4"
+            android:theme="@style/Theme.Lad1.NoActionBar" />
+        <activity
+            android:name=".Demo2.L23"
+            android:exported="false" />
+        <activity
+            android:name=".Demo2.L22"
+            android:exported="false" />
+        <activity
+            android:name=".demo4.Demo4_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Demo5.Main1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".demo1.MyService1" />
+        <service android:name=".demo1.MyService2" />
+        <service android:name=".demo1.MyService2" />
+        <service android:name=".demo1.MyService3" />
+
+        <receiver android:name=".Demo2.myBR1" />
+        <receiver android:name=".Demo2.myBR2" />
+        <receiver android:name=".Demo2.myBR3" />
+    </application>
+
+</manifest>
